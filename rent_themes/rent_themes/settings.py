@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-j2jp6if781(%%m%e@ekdy_ezv3s!@c_(m%k-8ln6z05@nd06p+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['3.128.249.166','10.21.0.227', 'localhost', '127.0.0.1', '.vercel.app', 'moss.ifrn.edu.br', 'https://fa65-187-19-226-95.ngrok-free.app', 'fa65-187-19-226-95.ngrok-free.app']
+ALLOWED_HOSTS = ['3.128.249.166','10.21.0.227', 'localhost', '127.0.0.1', '.vercel.app', 'moss.ifrn.edu.br', 'https://39fa-187-19-226-95.ngrok-free.app', '39fa-187-19-226-95.ngrok-free.app']
 
  
 # Application definition
@@ -63,7 +63,7 @@ MIDDLEWARE = [
 CORS_ORIGIN_ALLOW_ALL = True
 
 # habilita aceitar solicitações de origem externa para verificação de CSRF
-CSRF_TRUSTED_ORIGINS = ['https://fa65-187-19-226-95.ngrok-free.app']
+CSRF_TRUSTED_ORIGINS = ['https://39fa-187-19-226-95.ngrok-free.app']
 
 ROOT_URLCONF = 'rent_themes.urls'
 
